@@ -26,8 +26,8 @@ function Card({ id, price, info, image, name, removeTour, AddTour }) {
 
             </div>
 
-            <button className="btn-red" onClick={() => removeTour(id)}>Not Interested</button>
-            <button className="btn-red" onClick={() => AddTour(id)}>Interested</button>
+            <button className="btn-red" onClick={() => removeTour(id)}>NOT INTERESTED</button>
+            <button className="btn-red" onClick={() => AddTour(id)}>INTERESTED</button>
 
         </div>
 
